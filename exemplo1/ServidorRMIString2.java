@@ -1,9 +1,8 @@
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.Date;
 
-public class ServidorRMIString2 extends UnicastRemoteObject implements  InterfaceRMIString2
+public class ServidorRMIString2 extends UnicastRemoteObject implements InterfaceRMIString2
 {
 	public ServidorRMIString2() throws RemoteException
 	{

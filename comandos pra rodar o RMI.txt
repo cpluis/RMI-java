@@ -1,0 +1,22 @@
+primeiro      na pasta do projeto rmiregistry num promtp separado
+
+compilando 
+C:\Users\alu202011629\Desktop\RMI\exemplo1>"C:\Program Files\AdoptOpenJDK\jdk-8.0.222.08-openj9\bin\javac" ServidorRMIString.java
+
+rodando servido 
+C:\Users\alu202011629\Desktop\RMI\exemplo1>"C:\Program Files\AdoptOpenJDK\jdk-8.0.222.08-openj9\bin\java" ServidorRMIString
+
+compilando cliente
+C:\Users\alu202011629\Desktop\RMI\exemplo1>"C:\Program Files\AdoptOpenJDK\jdk-8.0.222.08-openj9\bin\javac" ClienteRMIString.java
+
+rodando cliente
+C:\Users\alu202011629\Desktop\RMI\exemplo1>"C:\Program Files\AdoptOpenJDK\jdk-8.0.222.08-openj9\bin\java" ClienteRMIString
+
+
+==============================================================================================================================
+C:\Users\luis.pires\Desktop\RMI\exemplo1>rmiregistry
+
+acessa
+cd C:\Users\luis.pires\Desktop\RMI\exemplo1>
+executa servidor
+"C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin\javac" ServidorRMIString.java

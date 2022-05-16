@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="exemplo3" options="--add-exports jdk.scripting.nashorn/jdk.nashorn.internal.runtime.regexp.joni=ALL-UNNAMED" />
-    </option>
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$" includeSubdirectories="false" />
+    </excludeFromCompile>
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="RmicSettings">
     <option name="IS_EANABLED" value="true" />
